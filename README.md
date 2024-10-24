@@ -1,9 +1,7 @@
 OCTANET Services Pvt Ltd Website
-
 This project is a static website for **OCTANET Services Pvt Ltd**, showcasing the company's services, internships, and company information. It is built solely using **HTML** and **CSS**, focusing on creating a responsive and visually appealing design.
 
 Project Overview
-
 The website includes the following sections:
 - Home: An introduction to OCTANET Services with a brief overview of what the company offers.
 - About Us: Information about the company, its specialties, and core values.
