@@ -1,0 +1,86 @@
+/* Home Section Styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #185488; /* Background color for the entire page */
+}
+
+/* Header styling */
+header {
+    background-color: #ffffff; /* White header background */
+    color: rgb(11, 8, 8);
+    padding: 10px 0;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline; /* Inline list items */
+    margin-right: 20px; /* Spacing between items */
+}
+
+nav ul li a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold; /* Bold links */
+}
+
+/* General section styling */
+section {
+    max-width: 800px; /* Max width for the section */
+    margin: 20px auto; /* Center the section */
+    padding: 20px; /* Padding around the section */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 8px; /* Rounded corners */
+    background-color: #f9f9f9; /* Very light gray background */
+    text-align: center; /* Center text in sections */
+}
+
+/* Footer styling */
+footer {
+    background-color: #333; /* Dark footer background */
+    color: rgb(250, 234, 234);
+    text-align: center;
+    padding: 10px 0;
+    position: fixed; /* Fixed footer */
+    width: 100%;
+    bottom: 0;
+}
+
+/* Add padding to the bottom of the main section to prevent overlap */
+section:last-of-type {
+    padding-bottom: 50px; /* Adjust this value based on footer height */
+}
+
+/* Social media styling */
+.social-media {
+    display: flex; /* Flexbox for layout */
+    justify-content: space-around; /* Space evenly */
+    background-color: #007bff; /* Blue background */
+    padding: 15px;
+    border-radius: 8px; /* Rounded corners */
+    margin-bottom: 20px; /* Spacing below the social media section */
+}
+
+.social-media a {
+    color: white; /* White text color */
+    text-decoration: none; /* No underline */
+    font-weight: bold; /* Bold links */
+    transition: background-color 0.3s; /* Transition effect for hover */
+    padding: 10px; /* Padding around links */
+    border-radius: 5px; /* Rounded corners for links */
+}
+
+.social-media a:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+
+
+
